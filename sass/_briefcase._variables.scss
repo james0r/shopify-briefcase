@@ -1,0 +1,34 @@
+/*
+ * Sleepless Media Style Settings
+ */
+/* --- Settings --- */
+
+// Z-indexes
+$zindex-dropdown:          1000 !default;
+$zindex-sticky:            1020 !default;
+$zindex-fixed:             1030 !default;
+$zindex-modal-backdrop:    1040 !default;
+$zindex-modal:             1050 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
+
+
+// Small phones
+$screen-xs-max: 360px;
+
+$screen-sm-max: 576px;
+
+// Small tablets (portrait view)
+$screen-md-max: 768px;
+
+$screen-lg-max: 992px;
+
+// Tablets and small desktops
+$screen-xl-max: 1200px;
+// Large tablets and desktops
+
+/* --- Color Palette --- */
+$white: #FFF;
+
+/* --- Fonts --- */
+
