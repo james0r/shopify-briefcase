@@ -27,19 +27,7 @@
 /* ------------------------------------------------------------ *\
 	Input related
 \* ------------------------------------------------------------ */
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 125px;
-  height: 35px;
-  border-radius: 20px;
-  background-color: $red;
-  color: $white;
-  font-family: $default;
-  font-size: 15px;
-  text-decoration: none;
-}
+
 /* ------------------------------------------------------------ *\
 	Position related
 \* ------------------------------------------------------------ */
@@ -49,10 +37,6 @@
 /* ------------------------------------------------------------ *\
 	Text related
 \* ------------------------------------------------------------ */
-.title {
-  font-family: $default;
-  font-size: 26px;
-}
 
 .text-light {
   color: white;
