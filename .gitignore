@@ -44,4 +44,4 @@ package-lock.json
 grunt-config.json
 config.yml
 /_site
-assets/logo.png
+assets/
