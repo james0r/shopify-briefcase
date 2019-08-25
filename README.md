@@ -1,1 +1,1 @@
-Simple, easy, Sass, ES6 & Archiving build system for Shopify.
+A lightweight Sass, ES6 & Archiving build system for Shopify powered by Gulp.
