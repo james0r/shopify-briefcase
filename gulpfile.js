@@ -1,6 +1,5 @@
 // Gulp 4
 const { src, dest, watch, series } = require("gulp");
-// Importing all the Gulp-related packages we want to use
 const sourcemaps = require("gulp-sourcemaps");
 const sass = require("gulp-sass");
 var sassGlob = require("gulp-sass-glob");
@@ -24,7 +23,6 @@ const zip = require("gulp-zip");
 var is_production = argv.production === undefined ? false : true;
 
 var project = {
-  // build settings
   vendor: {
     files_to_watch: ["./vendor/**/*"],
     styles: ["./vendor/**/*.css", "./vendor/**/*.scss"],
